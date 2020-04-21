@@ -10,7 +10,7 @@ class EmailParser(emails)
     email_array = []
     email_array = @emails.split(",") || @emails.split(" ")
     email_array.uniq 
-  end 
+  
 end 
   
 end 
